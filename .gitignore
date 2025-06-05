@@ -1,0 +1,8 @@
+./.vscode
+
+# Ignore all node_modules directories
+node_modules/
+# Ignore all log files
+.vscode
+.exe
+*.exe
