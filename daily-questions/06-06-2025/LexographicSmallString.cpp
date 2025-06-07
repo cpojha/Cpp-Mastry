@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 //stack approch use 
 // 1. We can use a stack to keep track of the characters in the string.
 // 2. We can iterate through the string and for each character, we can check if it is smaller than the top of the stack.
@@ -9,7 +8,7 @@ using namespace std;
 // 4. If it is not smaller, we can push the character onto the stack.
 // 5. We can repeat this process until we have processed all the characters in the string.
 // 6. Finally, we can pop all the remaining characters from the stack and add them to the result string.
-
+// 7. The result string will be the lexicographically smallest string that can be formed from the given string.
 class Solution {
 public:
 // Helper function to find the minimum character in the frequency array
