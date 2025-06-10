@@ -17,5 +17,6 @@ using namespace std;
 
 int main(){
 
-    
+    int n= 10e9;
+    cout<<n;
 }
