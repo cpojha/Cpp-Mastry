@@ -14,7 +14,7 @@ int factorial(int n) {
 int main() {
     int t;
     cin >> t; // Read number of test cases
-    while (t--) {
+    while (t--) {//
         int n;
         cin >> n; // Read the value of n for each test case
         cout << factorial(n) << endl; // Output the factorial of n
